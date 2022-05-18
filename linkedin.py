@@ -22,10 +22,6 @@ def run(email, password):
 	pass_box.send_keys(password)
 	submit_button = driver.find_element_by_class_name('sign-in-form__submit-button')
 	submit_button.click()
-	# try:
-
-	# 	driver.find_element_by_xpath("//button[@class='primary-action-new']").click()
-	# except:
 	search_text = 'AutoDS'
 
 	search_container = driver.get('https://www.linkedin.com/search/results/all/?keywords='+search_text)
@@ -33,7 +29,7 @@ def run(email, password):
 	driver.find_elements_by_xpath('.//span[@class = "entity-result__title-text t-16"]')[0].click()
 	time.sleep(10)
     
-		#wait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='search-result__actions--primary button-secondary-medium m5' and contains(.,'Connect')]"))).click()
+		
 un = input('Enter your Email: ')
 pw = input('Enter your Password: ')
 run(un, pw)
