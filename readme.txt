@@ -9,4 +9,4 @@ Please mention any number like 4 so that it will consider the prime item which w
 
 Flow of Linkedin:
 Please run the script.
-Please enter your Email and Password so that it will search AUtoDS and redirect to the page.
+Please enter your Email and Password so that it will login and search AutoDS and redirect to the page.
